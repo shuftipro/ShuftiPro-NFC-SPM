@@ -3,9 +3,9 @@
 import PackageDescription
 
 let frameworkRepo = "ShuftiPro-NFC-SPM"
-let version = "1.0.0"
+let version = "1.0.1"
 let frameworkZip = "ShuftiPro.xcframework.zip"
-let checksumValue = "749007725f4a02f51f00e37a6e1e662cc563d2c03f62fa87494bc5b9c1bafe78" // swift package compute-checksum ShuftiPro.xcframework.zip
+let checksumValue = "23c14112ed6092dc2f908c868033b8befe1e2a0c1a0abeaef1dcbd38f7643d01" // swift package compute-checksum ShuftiPro.xcframework.zip
 
 let package = Package(
     name: "ShuftiPro-NFC-SPM",
@@ -21,7 +21,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/shuftipro/shufti-nfc-spm-dependencies.git", exact: "1.0.0")
+        .package(url: "https://github.com/shuftipro/shufti-nfc-spm-dependencies.git", exact: "1.1.0")
     ],
     targets: [
         .binaryTarget(
