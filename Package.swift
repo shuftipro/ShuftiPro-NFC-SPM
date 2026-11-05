@@ -3,9 +3,9 @@
 import PackageDescription
 
 let frameworkRepo = "ShuftiPro-NFC-SPM"
-let version = "1.0.1"
+let version = "1.0.2"
 let frameworkZip = "ShuftiPro.xcframework.zip"
-let checksumValue = "23c14112ed6092dc2f908c868033b8befe1e2a0c1a0abeaef1dcbd38f7643d01" // swift package compute-checksum ShuftiPro.xcframework.zip
+let checksumValue = "01553eafff28710b5969dad00ed9237dadf522ee90a938236904c1285f0510d4" // swift package compute-checksum ShuftiPro.xcframework.zip
 
 let package = Package(
     name: "ShuftiPro-NFC-SPM",
